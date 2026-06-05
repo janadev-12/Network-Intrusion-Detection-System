@@ -1,0 +1,19 @@
+{
+    "project": "NetShield IDS",
+    "generated_at": "2026-06-01T19:35:18.706640",
+    "summary": {
+        "total_alerts": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "risk_score": 0,
+        "risk_level": "Safe",
+        "attack_types": {},
+        "top_attackers": {}
+    },
+    "alerts": [],
+    "response": {
+        "blocked_ips": [],
+        "actions": []
+    }
+}

@@ -1,0 +1,122 @@
+[
+	{
+		"timestamp": "2026-05-30T10:00:01.000000+0000",
+		"event_type": "alert",
+		"src_ip": "192.168.1.50",
+		"src_port": 44321,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 22,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100001,
+			"signature": "Possible SSH Brute Force Attempt",
+			"category": "Attempted Administrator Privilege Gain",
+			"severity": 1
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:01:12.000000+0000",
+		"event_type": "alert",
+		"src_ip": "192.168.1.60",
+		"src_port": 51512,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 80,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100002,
+			"signature": "SQL Injection Pattern Detected",
+			"category": "Web Application Attack",
+			"severity": 1
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:02:45.000000+0000",
+		"event_type": "alert",
+		"src_ip": "192.168.1.70",
+		"src_port": 40001,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 445,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100003,
+			"signature": "Suspicious SMB Connection",
+			"category": "Potentially Bad Traffic",
+			"severity": 2
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:03:20.000000+0000",
+		"event_type": "alert",
+		"src_ip": "10.0.0.25",
+		"src_port": 33333,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 8080,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100004,
+			"signature": "Port Scan Activity Detected",
+			"category": "Attempted Information Leak",
+			"severity": 2
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:04:50.000000+0000",
+		"event_type": "alert",
+		"src_ip": "172.16.5.20",
+		"src_port": 50100,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 53,
+		"proto": "UDP",
+		"alert": {
+			"signature_id": 100005,
+			"signature": "Suspicious DNS Query",
+			"category": "Potentially Bad Traffic",
+			"severity": 3
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:05:22.000000+0000",
+		"event_type": "alert",
+		"src_ip": "192.168.1.50",
+		"src_port": 44322,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 22,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100001,
+			"signature": "Possible SSH Brute Force Attempt",
+			"category": "Attempted Administrator Privilege Gain",
+			"severity": 1
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:06:10.000000+0000",
+		"event_type": "alert",
+		"src_ip": "192.168.1.80",
+		"src_port": 60221,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 443,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100006,
+			"signature": "Malware Traffic Pattern Detected",
+			"category": "A Network Trojan was detected",
+			"severity": 1
+		}
+	},
+	{
+		"timestamp": "2026-05-30T10:07:30.000000+0000",
+		"event_type": "alert",
+		"src_ip": "192.168.1.90",
+		"src_port": 34000,
+		"dest_ip": "192.168.1.10",
+		"dest_port": 3389,
+		"proto": "TCP",
+		"alert": {
+			"signature_id": 100007,
+			"signature": "RDP Login Attack Attempt",
+			"category": "Attempted Administrator Privilege Gain",
+			"severity": 2
+		}
+	}
+]
